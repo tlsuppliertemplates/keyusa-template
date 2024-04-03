@@ -1858,6 +1858,7 @@ dd {
 }
 
 @media (min-width:768px) {
+	
     .dl-horizontal dt {
         float: left;
         width: 160px;
@@ -2019,6 +2020,7 @@ pre code {
     .container {
         width: 963px
     }
+
 }
 
 @media (min-width:1200px) {
@@ -8029,6 +8031,12 @@ button.close {
     .hidden-xs {
         display: none !important
     }
+	.services-ul{
+		display: block !important;
+	}
+	.services-ul li{
+		width: 100% !important;
+	}
 }
 
 @media (min-width:768px) and (max-width:991px) {
@@ -10261,6 +10269,12 @@ a span.back_option:hover {
     .second_more {
         margin-top: 82px
     }
+	.services-ul{
+		display: block !important;
+	}
+	.services-ul li{
+		width: 100% !important;
+	}
 }
 
 @media (min-width:992px) and (max-width:1199px) {
@@ -11539,6 +11553,11 @@ li.demo_btn a {
     li.demo_btn a:hover {
         border-radius: 0 !important
     }
+	.digital-transformation-content{
+		background-color: aliceblue;
+		padding-top: 18px !important;
+		padding-left: 0px !important;
+	}
 }
 
 .research-compliance {
@@ -11651,22 +11670,57 @@ ul li {
     margin: 0;
     padding: 0
 }
-.frt_menu li a.font-weight-600{
-	color: #484545 !important;
+.banner-img-prof-serv img{
+	object-fit: cover;
+	width: 100%;
+	margin-top: 110px;
 }
-/* .frt_menu li:not(:first-child, .main-heading-menu)::after {
-    content: '';
-    display: inline-block;
-    height: 12px;
-    width: 12px;
-    background-image: url(../images/arrow.png);
-    left: 12px;
-    position: absolute;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin-top: 8px;
-} */
-/* 
-.frt_menu.home-footer-menu li:not(:first-child, .main-heading-menu)::after {
-    left: -5px !important;
-} */
+.ai-ml-banner0-img img{
+	object-fit: cover;width: 100%;margin-top: 110px;
+}
+.digital-banner-img img{
+	object-fit: contain;width: 100%; margin-top: 110px;
+}
+.position-relative{
+	position: relative;
+}
+.mb-25{
+	margin-bottom: 25px;
+}
+.mb-30{
+	margin-bottom: 30px;
+}
+.pb-4{
+	padding-bottom:4px; 
+}
+.mt-25{
+	margin-top: 25px;
+}
+.font-size-32{
+	font-size: 32px;
+}
+.font-size-30{
+	font-size: 30px;
+}
+.secondary-color-tl{
+	color: #890000;
+}
+.bl-20{
+	border-left: 20px solid #51a6f8;
+}
+.p-0{
+	padding: 0; 
+}
+.object-fit-cover{
+	object-fit: cover;
+}
+.digital-transformation-content{
+	background-color: aliceblue;
+	padding-top: 28px;
+	padding-left: 35px;
+}
+.tl-heading{
+	font-size: 30px; 
+	margin-bottom: 30px;
+	margin-top: 24px;
+}

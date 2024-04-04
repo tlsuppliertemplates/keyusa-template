@@ -11575,7 +11575,7 @@ ul li {
 
 .services-ul li {
     width: 45%;
-    margin: 16px 16px;
+    margin: 0px 16px;
 }
 
 .services-ul {
@@ -11588,11 +11588,12 @@ ul li {
 }
 
 .content-p p {
-    font-size: 20px;
+    font-size: 16px;
     text-align: start !important;
     font-weight: 500;
     color: #25333c;
     display: flex;
+	font-family: "roboto", sans-serif;
 }
 
 .content-main-section img {
@@ -11657,7 +11658,7 @@ ul li {
     margin: 0;
     text-align: left;
     margin-top: 50px;
-    font-size: 40px;
+    font-size: 24px;
     margin-bottom: 24px;
 }
 
@@ -11720,7 +11721,10 @@ ul li {
 	padding-left: 35px;
 }
 .tl-heading{
-	font-size: 30px; 
+	font-size: 24px; 
 	margin-bottom: 30px;
 	margin-top: 24px;
+}
+.font-size-24{
+	font-size: 24px;
 }
